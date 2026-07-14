@@ -1,0 +1,23 @@
+.banner{
+    width : fit-content;
+    background-color: blue;
+}
+.bgColor{
+    background-color: cadetblue;
+}
+.navbar{
+    display: flex;
+    background-color: #222;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-family: sans-serif;
+}
+.navbar a:hover{
+    background-color: #444;
+}
+.navbar a.active{
+    background-color: blue;
+}
